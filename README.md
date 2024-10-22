@@ -57,14 +57,9 @@ pip install -r requirements.txt
 Запуск в режиме **GUI**:
 
 ```shell
-py main.py "path.xml"
+py main.py 
 ```
 
-Запуск в режиме **CLI**:
-
-```shell
-py main.py "path.xml" -cli
-```
 
 # 5. Тестирование
 
