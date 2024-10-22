@@ -1,0 +1,223 @@
+ls,"desktop/wri/
+hello/bye/
+hello/goodbye/
+user/me/
+user/me/docs.odt
+user/me/music.txt
+user/secrets.txt
+my.txt
+hello/not_good_bye.png
+img.png
+user/top_secret.txt
+1
+(
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+"
+cd me,"No such directory: me
+"
+exit,
+ls,"desktop/wri/
+hello/bye/
+hello/goodbye/
+user/me/
+user/me/docs.odt
+user/me/music.txt
+user/secrets.txt
+my.txt
+hello/not_good_bye.png
+img.png
+user/top_secret.txt
+1
+(
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+"
+cd wri,"No such directory: wri
+"
+cd  desktop/wri,
+ls,"
+"
+clear,
+clear,
+exit,
+ls,"desktop/wri/
+hello/bye/
+hello/goodbye/
+user/me/
+user/me/docs.odt
+user/me/music.txt
+user/secrets.txt
+my.txt
+hello/not_good_bye.png
+img.png
+user/top_secret.txt
+1
+(
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+"
+cd hello,
+ls,"bye
+goodbye
+not_good_bye.png
+"
+rmdir,"Unknown command: rmdir
+"
+exit,
+ls,"desktop/wri/
+hello/bye/
+hello/goodbye/
+user/me/
+user/me/docs.odt
+user/me/music.txt
+user/secrets.txt
+my.txt
+hello/not_good_bye.png
+img.png
+user/top_secret.txt
+1
+(
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+"
+rmdir desktop/wri/,"Directory not empty: desktop/wri/
+"
+rmdir hello/bye,"Directory not empty: hello/bye
+"
+exit,
+2024-10-17 19:44:24,ls,"desktop/wri/
+hello/bye/
+hello/goodbye/
+user/me/
+user/me/docs.odt
+user/me/music.txt
+user/secrets.txt
+my.txt
+hello/not_good_bye.png
+img.png
+user/top_secret.txt
+1
+(
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+test.txt
+"
+2024-10-17 19:44:28,exit,
+2024-10-17 19:45:01,ls
+2024-10-17 19:45:04,exit
+2024-10-17 19:50:39,ls
+2024-10-17 19:50:57,clear
+2024-10-17 19:58:07,exit
+2024-10-18 12:57:17,ls
+2024-10-18 12:57:20,exit
+2024-10-18 13:08:30,exit
+2024-10-18 13:10:34,ls
+2024-10-18 13:10:47,rmdir hello
+2024-10-18 13:10:55,exit
+2024-10-18 13:11:46,ls
+2024-10-18 13:11:52,clear
+2024-10-18 13:12:02,rmdir hello
+2024-10-18 13:12:16,cd hello
+2024-10-18 13:12:20,ls
+2024-10-18 13:12:27,ext
+2024-10-18 13:12:31,exit
+2024-10-18 13:21:37,ls
+2024-10-18 13:22:19,ls
+2024-10-18 13:25:11,exit
+2024-10-18 13:25:31,ls
+2024-10-18 13:25:42,rmdir hello/bye/
+2024-10-18 13:25:55,ls
+2024-10-18 13:26:22,clear
+2024-10-18 13:26:51,ls
+2024-10-18 13:27:03,cd hello/bye
+2024-10-18 13:27:06,ls
+2024-10-18 13:27:20,rmdir hello/bye
+2024-10-18 13:27:41,ls
+2024-10-18 13:27:54,cd root
+2024-10-18 13:28:06,cd home
+2024-10-18 13:28:19,exit
+2024-10-18 13:28:53,ls
+2024-10-18 13:29:26,clear
+2024-10-18 13:29:27,ls
+2024-10-18 13:29:34,exit
+2024-10-18 13:59:16,exit
+2024-10-18 14:04:45,ls
+2024-10-18 14:05:36,cd desktop/wri/
+2024-10-18 14:05:39,ls
+2024-10-18 14:05:45,clear
+2024-10-18 14:05:47,exit
+2024-10-18 14:51:32,ls
+2024-10-18 14:52:52,ls
+2024-10-18 14:56:20,cd hello/goodbye/
+2024-10-18 14:56:23,ls
+2024-10-18 14:56:37,rmdir hello/goodbye
+2024-10-18 14:57:09,cd ..
+2024-10-18 14:57:19,cd
+2024-10-18 14:57:33,ls
+2024-10-18 14:57:50,cd ..
+2024-10-18 14:57:53,ls
+2024-10-18 14:58:27,clear
+2024-10-18 14:58:40,ls
+2024-10-18 14:59:17,cd desktop/wri/
+2024-10-18 14:59:21,clear
+2024-10-18 14:59:25,ls
+2024-10-18 14:59:34,exit
+2024-10-22 13:34:52,ls
+2024-10-22 13:35:08,exit
+2024-10-22 13:40:17,data
+2024-10-22 13:42:37,date
+2024-10-22 13:42:50,date
+2024-10-22 13:45:03,exit
+2024-10-22 13:49:05,date
+2024-10-22 13:49:09,ls
+2024-10-22 13:49:22,rmdir me
+2024-10-22 13:49:33,rmdir user/me/
+2024-10-22 13:49:50,rmdir hello/goodbye/
+2024-10-22 13:50:12,cd user/me/
+2024-10-22 13:50:18,ls
+2024-10-22 14:21:37,ls
+2024-10-22 14:21:47,cd user/me/
+2024-10-22 14:21:50,ls
+2024-10-22 14:21:58,date
+2024-10-22 14:22:21,exit
+2024-10-22 14:22:52,ls
+2024-10-22 14:23:02,cd user/me/
+2024-10-22 14:23:25,exit
+2024-10-22 14:33:19,mkdir fiile
+2024-10-22 14:34:03,mkdir limpopo
+2024-10-22 14:34:18,ls
